@@ -1,0 +1,73 @@
+# Compiled class files & build artifacts
+target/
+*.class
+
+# Package Files (JARs should be built from source with Maven)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven local files
+.mvn/timing.properties
+
+# Log files
+*.log
+*.log.*
+
+# Virtual Machine Crash Logs
+hs_err_pid*
+replay_pid*
+
+# Environment variables & secrets (do not commit passwords)
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+credentials.json
+secrets.properties
+
+# Database files & local dumps
+*.sql.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files & backups
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
